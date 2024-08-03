@@ -21,13 +21,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- MAIN CSS -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./CSS/style.css">
 
 	<!-- MAIN JS -->
-	<script src="main.js" type="text/javascript"></script>
+	<script src="./JS/main.js" type="text/javascript"></script>
 
 	<!-- MAIN JQUERY -->
-	<script src="jquery.js" type="text/javascript"></script>
+	<script src="./JS/jquery.js" type="text/javascript"></script>
 
 </head>
 
@@ -58,6 +58,7 @@
 						</li>
 						<li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in" class="neon-text-1">Contact Me</a>
 						</li>
+						<li><a href="https://drive.google.com/file/d/17gy3zv8V-QLZhPV56pRSo11vhUSbSBBD/view?usp=drive_link" data-toggle="collapse" data-target=".navbar-collapse.in" class="neon-text-1">Resume</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
@@ -68,7 +69,7 @@
 	<section class="home fadeIn">
 		<div class="header-section">
 			<div class="container checkOutMyPortfolio">
-				<img src="https://github.com/tpriyanshu90/portfolioTemplate/blob/master/img/profile.png?raw=true">
+				<img src="./img/profile.png">
 				<h2 class="neon-text">Hello World..<span>!</span></h2>
 				<p>My name is Pinisetti Venkata Naga Pavan & I am a FrontEnd Developer</p>
 
@@ -83,7 +84,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3 col-md-6">
-					<img class="yourPic img-responsive" src="https://github.com/tpriyanshu90/portfolioTemplate/blob/master/img/profile.png?raw=true" alt="Priyanshu Tiwari">
+					<img class="yourPic img-responsive" src="./img/profile.png" alt="Priyanshu Tiwari">
 				</div>
 				<div class="col-sm-9 col-md-6">
 					<p style="border:3px solid white;padding: 25px; border-radius: 45px;">
@@ -113,8 +114,8 @@
 						<div class="study2">
 							<h4>ReactJs&nbsp&nbsp<i class="fa fa-facebook" style="color:#4267b2;;"></i></h4>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80"
-									aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50"
+									aria-valuemin="0" aria-valuemax="100" style="width: 50%">
 									<span class="sr-only">50% Complete (success)</span>
 								</div>
 							</div>
@@ -127,15 +128,15 @@
 							</div>
 							<h4>CSS</h4>
 							<div class="progress">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90"
-									aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+									aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 									<span class="sr-only">60% Complete (warning)</span>
 								</div>
 							</div>
 							<h4>JavaScript<h4>
 									<div class="progress">
 										<div class="progress-bar progress-bar-danger" role="progressbar"
-											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 											<span class="sr-only">60% Complete (danger)</span>
 										</div>
 									</div>
@@ -153,32 +154,30 @@
 				<div class="col-sm-4 ">
 					<div class="figure ">
                         <a href="https://webprosindia1.000webhostapp.com/">
-                            <img class="img-responsive " src="./ex1.png" alt="Thumb " width="400 "
-							height="300 " />
+                            <img class="img-responsive " src="./img/ex1.png" alt="Thumb " width="400px" height="300px" />
                         </a>
-						
 						<!-- <div class="figcaption ">
 							<div>Project 1</div>
 						</div> -->
 					</div>
-                    <Span >WebPro India</Span>
+                    <Span class="heading">WebPro India</Span>
 				</div>
 				<div class="col-sm-4 ">
 					<div class="figure ">
 						<a href="https://weather-react-app-amber-delta.vercel.app/">
-                            <img class="img-responsive " src="./ex2.png" alt="Thumb " width="400 "
+                            <img class="img-responsive " src="./img/ex2.png" alt="Thumb " width="400 "
 							height="300 " />
                         </a>
 						<!-- <div class="figcaption ">
 							<div>Project 2</div>
 						</div> -->
 					</div>
-                    <Span >Weather APP</Span>
+                    <Span class="heading">Weather APP</Span>
 				</div>
 				<div class="col-sm-4 ">
 					<div class="figure ">
                         <a>
-                            <img class="img-responsive " src="./ex3.png" alt="Thumb " width="400 "
+                            <img class="img-responsive " src="./img/ex3.png" alt="Thumb " width="400 "
 							height="300 " />
                         </a>     
 						
@@ -186,7 +185,7 @@
 							<div>Project 3</div>
 						</div> -->
 					</div>
-                    <Span >Java GUI</Span>
+                    <Span class="heading">Java GUI</Span>
 				</div>
 			</div>
 			<!-- <figure>
@@ -196,72 +195,79 @@
 		</div>
 	</section>
     <br>
-	<!-- <section class="container-fluid projects fadeIn" id="projects">
-		<div class="hero">
-		  		<h1>My Projects <strong>I love them</strong> </h1>
-		  	</div>
-		<h3 class="neon-text">My Projects</h3>
-		<div class="container ">
-			<div class="row ">
-				<div class="col-sm-4 ">
-					<div class="figure ">
-						<img class="img-responsive " src="https://robohash.org/a " alt="Thumb " width="400 "
-							height="300 " />
-						<div class="figcaption ">
-							<div>Project 1</div>
-						</div>
+	<section class="container-fluid projects fadeIn" id="projects">
+		<h3 class="neon-text">My experience</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4" onclick="openModal('cyberModal')">
+					<div class="figure">
+						<img class="img-responsive" src="./img/cyber.png" alt="Cyber Security" width="400" height="300" />
 					</div>
+					<div class="heading">Cyber Security</div>
 				</div>
-				<div class="col-sm-4 ">
-					<div class="figure ">
-						<img class="img-responsive " src="https://robohash.org/b " alt="Thumb " width="400 "
-							height="300 " />
-						<div class="figcaption ">
-							<div>Project 2</div>
-						</div>
+				<div class="col-sm-4" onclick="openModal('freelancingModal')">
+					<div class="figure">
+						<img class="img-responsive" src="./img/free lancing.jpeg" alt="Freelancing" width="400" height="300" />
 					</div>
+					<div class="heading">Freelancing</div>
 				</div>
-				<div class="col-sm-4 ">
-					<div class="figure ">
-						<img class="img-responsive " src="https://robohash.org/c " alt="Thumb " width="400 "
-							height="300 " />
-						<div class="figcaption ">
-							<div>Project 3</div>
-						</div>
+				<div class="col-sm-4" onclick="openModal('javaModal')">
+					<div class="figure">
+						<img class="img-responsive" src="./img/java.jpeg" alt="Java DSA" width="400" height="300" />
 					</div>
-				</div>
-			</div>
-			<div class="row ">
-				<div class="col-sm-4 ">
-					<div class="figure ">
-						<img class="img-responsive " src="https://robohash.org/d " alt="Thumb " width="400 "
-							height="300 " />
-						<div class="figcaption ">
-							<div>Project 1</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 ">
-					<div class="figure ">
-						<img class="img-responsive " src="https://robohash.org/e " alt="Thumb " width="400 "
-							height="300 " />
-						<div class="figcaption ">
-							<div>Project 2</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 ">
-					<div class="figure ">
-						<img class="img-responsive " src="https://robohash.org/f " alt="Thumb " width="400 "
-							height="300 " />
-						<div class="figcaption ">
-							<div>Project 3</div>
-						</div>
-					</div>
+					<div class="heading">Java DSA</div>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
+	
+	<!-- Modals -->
+	<div id="cyberModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal('cyberModal')">&times;</span>
+			<p>
+				<h2>Cyber Security</h2>
+				<ul>
+					<li>Completed a cybersecurity internship at Palo Alto through AICTE and EduSkill during the 2nd year, 2nd
+						semester, learning penetration testing techniques including web testing, OS testing, and tools such as MSF
+						Console and Burp Suite.
+					</li>
+					
+				</ul>
+			</p>
+		</div>
+	</div>
+	
+	<div id="freelancingModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal('freelancingModal')">&times;</span>
+			<p>
+				<h2>
+					Freelancing details
+				</h2>
+				<ul>
+					<li>Completed a freelancing project at Lovern Academy as a Frontend Developer, where I created a user-friendly web page that dynamically adjusts to mobile screens, laptops, tablets, and desktops using HTML, CSS, and JavaScript (DOM Elements).</li>
+					<li>Gained valuable experience in Frontend Development by completing the project within one month.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+	
+	<div id="javaModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal('javaModal')">&times;</span>
+			<p>
+				<h2>Java DSA details</h2>
+				<ul>
+					<li>Gained proficiency in Data Structures and Algorithms (DSA) using Java.</li>
+					<li>Developed a comprehensive "Restaurant Billing System" project using Java GUI with a Queue data
+					structure implemented via Linked List, featuring a detailed menu with Veg, Non-Veg, Starters, Biryanis,
+					Soups, and Ice-creams.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+	
 	<!-- CONTACT ME -->
 	<section class="contactMe fadeIn">
 		<div class="contact-section" id="contact">
@@ -291,8 +297,8 @@
 	<section class="container-fluid mainFooter fadeIn">
 		<div class="container">
 			<div class="footer-top">
-				<p>&copy; 2019 made with <i class="fa fa-heart"></i> by <a target="_blank"
-						href="https://tpriyanshu.bitbucket.io">Priyanshu Tiwari</a>
+				<p>&copy; Copy Right <i class="fa fa-heart"></i> by <a target="_blank"
+						href="https://tpriyanshu.bitbucket.io">Pavan</a>
 				</p>
 			</div>
 			<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>

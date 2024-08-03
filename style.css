@@ -10,6 +10,54 @@ body{
     font-family: 'OpenSans-Regular';
     src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img-responsive {
+  width: 100%;
+  height:350px;
+
+}
+.heading{
+  font-size: 19px;
+  font-family: 'OpenSans-Regular';
+  src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
 .mainHeader{
 	  position: fixed; 
     top: -60px; 
@@ -46,10 +94,11 @@ body{
 /* HTML element that will have the glowing effect */
 .header-section {
   background: #deecdf;
-  background-image: url('https://github.com/tpriyanshu90/portfolioTemplate/blob/master/img/1.jpg');
+  background-image: url('../img/1.jpg');
   text-align: center;
   min-height: 500px;
-  height:100vh;
+  height:100%;
+  padding: 25px;
 }
 .header-section img {
   margin-top: 7em;
@@ -93,6 +142,8 @@ span.glyphicon.glyphicon-triangle-bottom {
   	padding-bottom: 2%;
 }
 .yourPic{
+  width:300px;
+  height: 300px;
 	    padding-left: 0%;
 	    transition:  all 0.5s;
 }
@@ -127,8 +178,9 @@ span.glyphicon.glyphicon-triangle-bottom {
 .skills{
 }
 .experience{
+  padding:25px;
 	background-color: rgba(255,244,1,0.4);
-    height: 60vh;
+  height: 100%;
 	text-align: center;	
 }
 .experience h3{
