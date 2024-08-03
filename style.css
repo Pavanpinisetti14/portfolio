@@ -94,7 +94,7 @@ body{
 /* HTML element that will have the glowing effect */
 .header-section {
   background: #deecdf;
-  background-image: url('../1.jpg');
+  background-image: url('./1.jpg');
   text-align: center;
   min-height: 500px;
   height:100%;
@@ -130,7 +130,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 .about{
 	background-size: cover;
 	background: #deecdf;
-/* 	background-image: url('../1.jpg');
+/* 	background-image: url('./1.jpg');
  */	padding-bottom: 5vw;
 	text-align: center;
 }
